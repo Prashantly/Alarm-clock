@@ -58,6 +58,7 @@ function clearAlarm() {
 function deleteAlarm(alarmId) {
   alarmsArray.splice(alarmId, 1);
   localStorage.setItem("alarms", JSON.stringify(alarmsArray));
+  notificationBar("Success!!", "Alarm removed!!", "success");
   showNewAlarm();
 }
 
