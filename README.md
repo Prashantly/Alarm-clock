@@ -25,4 +25,4 @@ When the user deletes an alarm make sure it “does not alerts the user”
 
 ## Demo
 
-![Demo Video](files/demo.mp4)
+https://github.com/Prashantly/Alarm-clock/assets/99544800/56cdd6a4-a20f-4ac0-980b-a251f46addd4
