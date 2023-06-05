@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Alarm clock</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <img
+        id="clock-image"
+        src="https://cdn-icons-png.flaticon.com/512/1571/1571763.png"
+        alt="clock-image"
+      />
+      <h1>TIMER</h1>
+      <div class="content">
+        <div class="column">
+          <select>
+            <option value="Hour" selected hidden>Hour</option>
+          </select>
+        </div>
+        <div class="column">
+          <select>
+            <option value="Minute" selected hidden>Minute</option>
+          </select>
+        </div>
+
+        <div class="column">
+          <select>
+            <option value="Second" selected hidden>Second</option>
+            <!-- <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option> -->
+          </select>
+        </div>
+
+        <div class="column">
+          <select>
+            <option value="AM/PM" selected hidden>AM/PM</option>
+            <option value="AM">AM</option>
+            <option value="PM">PM</option>
+          </select>
+        </div>
+      </div>
+      <div class="alarm-control-btns">
+        <button id="set" class="alrm-submit btn" type="submit">
+          Set Alarm
+        </button>
+        <button id="stop" class="alrm-stop btn" type="submit">
+          Stop Alarm
+        </button>
+      </div>
+
+      <div class="alarms">
+        <h2>Upcoming alarms</h2>
+        <ul id="alarm-list">
+          <!-- List items will be added dynamically with JavaScript -->
+          <!-- <li data-time="08:00:00 AM">
+            <div>08:00:00 AM</div>
+            <div>Alarm 1</div>
+            <button class="delete">Delete</button>
+          </li>
+          <li data-time="08:00:00 AM">
+            <div>08:00:00 AM</div>
+            <div>Alarm 2</div>
+            <button class="delete">Delete</button>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
